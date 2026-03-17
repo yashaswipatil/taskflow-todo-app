@@ -12,7 +12,6 @@ const pending = tasks?.filter(t => !t.completed).length ?? 0;
 
   return (
     <div className="min-h-screen bg-base-100 text-base-content">
-      <div className="bg-red-500 text-white p-4">Tailwind Test</div>
 
       {/* ── Header ─────────────────────────────────────────────── */}
       <header className="navbar bg-base-200 border-b border-base-300 px-6 sticky top-0 z-50">
