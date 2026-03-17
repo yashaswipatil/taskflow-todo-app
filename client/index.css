@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Syne:wght@400;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'DM Mono', monospace;
+    background-color: hsl(var(--b1));
+    color: hsl(var(--bc));
+}
