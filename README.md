@@ -116,7 +116,7 @@ Retry / failure      →   10% random failure simulation
 
 ## 🎨 Styling Choices
 
-- **DaisyUI `night` theme** — dark theme applied via `data-theme="night"` on `<html>`
+- **DaisyUI `light` theme** — dark theme applied via `data-theme="light"` on `<html>`
 - **Vite proxy** — all API calls go through `/api` prefix, forwarded to port 3001. This avoids CORS issues entirely in development
 - **Optimistic UI** — checkbox toggles update instantly, rollback on error
 
@@ -144,4 +144,4 @@ Separating all state logic into a custom hook keeps `App.jsx` clean and makes th
 - ✅ Live queue inspector panel (auto-polls every 2s)
 - ✅ Error handling with user-friendly messages
 - ✅ Responsive layout with TailwindCSS + DaisyUI
-- ✅ Dark theme (DaisyUI night)
+- ✅ Dark theme (DaisyUI light)
