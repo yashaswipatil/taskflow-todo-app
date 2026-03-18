@@ -1,6 +1,8 @@
 import axios from "axios";
 
-const client = axios.create({ baseURL: "/api" });
+const client = axios.create({
+  baseURL: "https://taskflow-todo-app-backend.vercel.app",
+});
 
 export const fetchTasks = () => client.get("/tasks").then((r) => r.data);
 export const createTask = (title) =>
