@@ -1,4 +1,3 @@
-// client/src/components/TaskList.jsx
 import TaskItem from "./TaskItem";
 
 export default function TaskList({ tasks, deletingIds, onToggle, onDelete }) {

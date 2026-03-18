@@ -1,4 +1,3 @@
-// client/src/components/TaskItem.jsx
 export default function TaskItem({ task, isDeleting, onToggle, onDelete }) {
   return (
     <div className={`flex items-center gap-3 p-3 rounded-lg border border-base-300

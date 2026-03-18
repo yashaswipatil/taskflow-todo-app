@@ -1,6 +1,3 @@
-// client/src/hooks/useTasks.js
-// Encapsulates all task + queue state logic away from components
-
 import { useState, useEffect, useCallback } from "react";
 import {
   fetchTasks,

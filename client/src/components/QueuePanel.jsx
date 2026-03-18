@@ -1,5 +1,3 @@
-// client/src/components/QueuePanel.jsx
-// Visualises the BullMQ-style deletion queue in real time
 
 const STATE_BADGE = {
   waiting:   "badge-warning",

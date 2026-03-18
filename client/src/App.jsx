@@ -1,4 +1,3 @@
-// client/src/App.jsx
 import { useTasks }     from "./hooks/useTasks";
 import AddTaskForm      from "./components/AddTaskForm";
 import TaskList         from "./components/TaskList";

@@ -1,6 +1,5 @@
 import axios from "axios";
 
-// All requests go to Vite proxy — no CORS issues
 const client = axios.create({ baseURL: "/api" });
 
 export const fetchTasks = () => client.get("/tasks").then((r) => r.data);
