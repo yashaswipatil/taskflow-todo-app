@@ -11,9 +11,11 @@ app.use(
     origin: "https://taskflow-todo-app-cyan.vercel.app",
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
+    optionsSuccessStatus: 204,
   }),
 );
 
+app.options("*", cors());
 app.use(express.json());
 
 // ─────────────────────────────────────────────────────────────
