@@ -1,6 +1,19 @@
 const express = require("express");
+const cors = require("cors");
 
 const app = express();
+
+// ─────────────────────────────────────────────────────────────
+// CORS — must be before all routes
+// ─────────────────────────────────────────────────────────────
+app.use(
+  cors({
+    origin: "https://taskflow-todo-app-cyan.vercel.app",
+    methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+  }),
+);
+
 app.use(express.json());
 
 // ─────────────────────────────────────────────────────────────
